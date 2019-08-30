@@ -1,0 +1,8 @@
+s = "Australian Rules Football is a ball game played by two teams of eighteen players with an ellipsoid ball on a large oval field with four upright posts at each end. Each team attempts to score points by kicking the ball through the appropriate posts (goals) and prevent their opponents from scoring. The team scoring the most points in a given time is the winner. Usually this period is divided into four quarters of play.Play begins at the beginning of a quarter or after a goal, with a tap contest between two opposing players (rucks) in the centre of the ground after the umpire either throws the ball up or bounces it down."
+vowels = 0
+for i in s:
+    if i == 'a' or i == 'u' or i == 'a' or i == 'e' or i == 'o':
+        vowels += 1
+print ('Number of vowels is', vowels)
+print ('Надто просто, Гріша')
+print ('Чи тут прикол в тому, шо я могла не вставлять в s текст і якось його закодувать?')
